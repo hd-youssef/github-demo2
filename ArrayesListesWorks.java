@@ -25,6 +25,20 @@ public class ArrayesListesWorks{
 
 	   return combine;
 
+   }
+
+   public static void relaysInfo(ArrayList<Integer> y){
+
+
+
+
+	   for(int i=0; i<y.size(); i++){
+		   System.out.print(y.get(i)+" , ");
+	   }
+
+	   System.out.println();
+
+
 
    }
 }
