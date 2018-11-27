@@ -10,7 +10,20 @@ public class ArrayesListesWorks{
 
    public static ArrayList<Integer> combinations(ArrayList<Integer> a, ArrayList<Integer> b){
 
-	   return new ArrayList<>();
+
+	   ArrayList<Integer> combine = new ArrayList<>();
+
+	   for(int i=0; i<a.size(); i++){
+
+		   combine.add(a.get(i));
+	   }
+
+	   for(int i=0; i<b.size(); i++){
+
+		   combine.add(b.get(i));
+	   }
+
+	   return combine;
 
 
    }
